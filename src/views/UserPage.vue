@@ -12,7 +12,7 @@ export default {
   },
   computed: {
     user() {
-      return this.$store.getters['user/user']
+      return this.$store.getters['user/user'];
     }
   }
 };

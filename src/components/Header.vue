@@ -9,15 +9,13 @@
 </template>
 
 <script>
-import { mapGetters } from 'vuex';
-
 export default {
   computed: {
     isAuthenticated() {
-      return this.$store.getters['auth/isAuthenticated']
+      return this.$store.getters['auth/isAuthenticated'];
     },
     user() {
-      return this.$store.getters['user/user']
+      return this.$store.getters['user/user'];
     }
   },
   methods: {
